@@ -36,7 +36,7 @@ O processo implementado envolve:
 
 ---
 
-# 🔎 Etapas do Processamento
+## 🔎 Etapas do Processamento
 
 ### 🔸 Convolução com Filtro Sobel
 Aplicação das máscaras Sobel nas direções **X** e **Y** para capturar variações de intensidade.
@@ -49,7 +49,7 @@ Aplicação das máscaras Sobel nas direções **X** e **Y** para capturar varia
 ### 🔸 Magnitude do Gradiente
 A intensidade da borda é calculada a partir dos gradientes:
 
-![Formula](https://latex.codecogs.com/png.image?\dpi{120}bg_blue G=\sqrt{G_x^2+G_y^2})
+G = sqrt(Gx^2+Gy^2)
 
 Essa etapa destaca regiões onde há mudanças bruscas de intensidade.
 
@@ -58,7 +58,7 @@ Essa etapa destaca regiões onde há mudanças bruscas de intensidade.
 ### 🔸 Orientação das Bordas
 A direção das bordas é obtida por:
 
-![Formula](https://latex.codecogs.com/png.image?\dpi{120}bg_blue \theta=\arctan\left(\frac{G_y}{G_x}\right))
+theta = arctan(Gy/Gx)
 
 Essa informação é importante para algoritmos que analisam **direção e estrutura das bordas**.
 
@@ -94,7 +94,6 @@ Esse vetor pode ser utilizado em tarefas como:
 
 # 👩‍🏫 Orientação
 
-**Profa. Dra. Elloá B. Guedes**  
-Escola Superior de Tecnologia – Universidade do Estado do Amazonas (EST/UEA)
-
-📅 Data da atividade: **03 de março de 2026**
+Orientador(a): **Profa. Dra. Elloá B. Guedes**  
+Instituição: **Escola Superior de Tecnologia – Universidade do Estado do Amazonas (EST/UEA)**
+Data: **03 de março de 2026**
