@@ -3,14 +3,15 @@
 
 Este repositório contém a implementação da **Atividade 1 da disciplina Tópicos para Computação 1 (2026.1)**, ministrada pela **Profa. Dra. Elloá B. Guedes** na **Escola Superior de Tecnologia (EST/UEA)**.
 
-O projeto demonstra, de forma prática, como algoritmos clássicos de **Visão Computacional** funcionam internamente, explorando operações matemáticas como convolução, cálculo de gradientes e geração de mapas de características a partir de imagens.
+
 
 ---
 
-# 📁 Estrutura do Projeto
+## 📁 Estrutura do Projeto
 ```
 ├── Topicos1-2026.1-Tarefa1.ipynb
-├── cano.webp
+├── badbunny.jpeg
+├── deepfake.png
 └── README.md
 ```
 
@@ -19,7 +20,7 @@ O projeto demonstra, de forma prática, como algoritmos clássicos de **Visão C
 
 ---
 
-# ⚙️ Descrição da Atividade
+## ⚙️ Descrição da Atividade
 
 A atividade consiste em aplicar o **Filtro Sobel** para identificar bordas em uma imagem e gerar representações derivadas que podem ser utilizadas como **vetores de características** em tarefas de visão computacional.
 
@@ -48,9 +49,7 @@ Aplicação das máscaras Sobel nas direções **X** e **Y** para capturar varia
 ### 🔸 Magnitude do Gradiente
 A intensidade da borda é calculada a partir dos gradientes:
 
-\[
-G = \sqrt{G_x^2 + G_y^2}
-\]
+![Formula](https://latex.codecogs.com/png.image?\dpi{120}G=\sqrt{G_x^2+G_y^2})
 
 Essa etapa destaca regiões onde há mudanças bruscas de intensidade.
 
@@ -59,9 +58,7 @@ Essa etapa destaca regiões onde há mudanças bruscas de intensidade.
 ### 🔸 Orientação das Bordas
 A direção das bordas é obtida por:
 
-\[
-\theta = \arctan \left(\frac{G_y}{G_x}\right)
-\]
+![Formula](https://latex.codecogs.com/png.image?\dpi{120}\theta = \arctan \left(\frac{G_y}{G_x}\right))
 
 Essa informação é importante para algoritmos que analisam **direção e estrutura das bordas**.
 
