@@ -87,7 +87,7 @@ Esse vetor pode ser utilizado em tarefas como:
 
 # 👥 Autores
 
-| [<img src="https://github.com/thiagocordeirum.png?size=100" width=100><br><sub>Thiago Cordeiro</sub>](https://https://github.com/thiagocordeirum) | [<img src="https://github.com/cpc231341.png?size=100" width=100><br><sub>Cristiano Peniche</sub>](https://github.com/cpc231341) |
+| [<img src="https://github.com/thiagocordeirum.png?size=100" width=100><br><sub>Thiago Cordeiro</sub>](https://github.com/thiagocordeirum) | [<img src="https://github.com/cpc231341.png?size=100" width=100><br><sub>Cristiano Peniche</sub>](https://github.com/cpc231341) |
 |:---:|:---:|
 
 ---
