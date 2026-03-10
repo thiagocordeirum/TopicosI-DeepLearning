@@ -94,6 +94,6 @@ Esse vetor pode ser utilizado em tarefas como:
 
 # 👩‍🏫 Orientação
 
-Orientador(a): **Profa. Dra. Elloá B. Guedes**  
-Instituição: **Escola Superior de Tecnologia – Universidade do Estado do Amazonas (EST/UEA)**
-Data: **03 de março de 2026**
+- Orientador(a): **Profa. Dra. Elloá B. Guedes**  
+- Instituição: **Escola Superior de Tecnologia – Universidade do Estado do Amazonas (EST/UEA)**
+- Data: **03 de março de 2026**
