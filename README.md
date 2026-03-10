@@ -1,5 +1,5 @@
-# sobel-edge-feature-extraction
-Extração de bordas e construção de vetores de características utilizando o Filtro Sobel.
+# Atividade 1: Filtro de Sobel e extração de bordas em imagens
+
 
 Este repositório contém a implementação da **Atividade 1 da disciplina Tópicos para Computação 1 (2026.1)**, ministrada pela **Profa. Dra. Elloá B. Guedes** na **Escola Superior de Tecnologia (EST/UEA)**.
 
@@ -8,10 +8,11 @@ O projeto demonstra, de forma prática, como algoritmos clássicos de **Visão C
 ---
 
 # 📁 Estrutura do Projeto
+```
 ├── Topicos1-2026.1-Tarefa1.ipynb
 ├── cano.webp
 └── README.md
-
+```
 
 - **Topicos1-2026.1-Tarefa1.ipynb** → Notebook com toda a implementação da atividade  
 - **badbunny.jpeg & deepfake.png** → Imagens utilizada para demonstração da extração de bordas
