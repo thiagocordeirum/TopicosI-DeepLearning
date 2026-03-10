@@ -49,7 +49,7 @@ Aplicação das máscaras Sobel nas direções **X** e **Y** para capturar varia
 ### 🔸 Magnitude do Gradiente
 A intensidade da borda é calculada a partir dos gradientes:
 
-![Formula](https://latex.codecogs.com/png.image?\dpi{120}G=\sqrt{G_x^2+G_y^2})
+![Formula](https://latex.codecogs.com/png.image?\dpi{120}bg_blue G=\sqrt{G_x^2+G_y^2})
 
 Essa etapa destaca regiões onde há mudanças bruscas de intensidade.
 
@@ -58,7 +58,7 @@ Essa etapa destaca regiões onde há mudanças bruscas de intensidade.
 ### 🔸 Orientação das Bordas
 A direção das bordas é obtida por:
 
-![Formula](https://latex.codecogs.com/png.image?\dpi{120}\theta = \arctan \left(\frac{G_y}{G_x}\right))
+![Formula](https://latex.codecogs.com/png.image?\dpi{120}bg_blue \theta=\arctan\left(\frac{G_y}{G_x}\right))
 
 Essa informação é importante para algoritmos que analisam **direção e estrutura das bordas**.
 
